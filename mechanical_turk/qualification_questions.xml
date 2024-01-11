@@ -1,0 +1,212 @@
+<QuestionForm xmlns='http://mechanicalturk.amazonaws.com/AWSMechanicalTurkDataSchemas/2005-10-01/QuestionForm.xsd'>
+  <Overview>
+    <Title>Self-referential statements qualification test</Title>
+    <Text>
+    Your task is to say whether a self-referential statement is true or false.
+    In cases where you think that the answer is ambiguous, you should use your
+    best judgement and still say either 'True' or 'False'.
+
+    Do not use any AI assistants such as ChatGPT to help you;
+    AI assistants perform very poorly at this task and so will get many of the answers wrong.
+    Although, you can otherwise feel free to search online for any information that would
+    help you answer confidently. For example, a few statements may contain a language besides
+    English. So, you can feel free to use Google Translate. A few statements additionally contain
+    very basic code such as Python code, so you are expected to be familiar with basic Python code
+    or able to search to clarify any Python info that you might not know. You can also search for
+    the definitions of words that you are unfamiliar with.
+
+    Make sure that you understand the given examples below before continuing.
+    </Text>
+    <FormattedContent><![CDATA[
+    <pre>
+    Example:
+
+    I am the text you are reading.
+    My last line has how many words?
+    Two words.
+
+    Answer: True
+
+
+    Example:
+
+    I am the text you are reading.
+    My last line has how many words?
+    Seven words.
+
+    Answer: False
+
+
+    Example:
+
+    this sentence
+    l             o
+    o             o
+    k             s
+    a bit like the
+    l
+    e
+    t
+    t
+    e
+    r
+    "p"
+
+    Answer: True
+
+
+    Example:
+
+    this sentence
+    l             o
+    o             o
+    k             s
+    a bit like the
+    l
+    e
+    t
+    t
+    e
+    r
+    "o"
+
+    Answer: False
+
+
+    Example:
+
+    here in reversed is order word the.
+
+    Answer: True
+
+
+    Example:
+
+    here in fine is order word the.
+
+    Answer: False
+    </pre>
+    ]]></FormattedContent>
+  <Text> Now it is your turn to complete examples. Fill in the answers below. </Text>
+  </Overview>
+  <Question>
+      <QuestionIdentifier>problem1</QuestionIdentifier>
+      <DisplayName>Say whether the following self-referential statement is true or false.</DisplayName>
+      <IsRequired>true</IsRequired>
+      <QuestionContent>
+        <Text> The word with the most vowels in this sentence has four vowels, how eerie. </Text>
+      </QuestionContent>
+      <AnswerSpecification>
+        <SelectionAnswer>
+          <StyleSuggestion>radiobutton</StyleSuggestion>
+          <Selections>
+            <Selection>
+              <SelectionIdentifier>true</SelectionIdentifier>
+              <Text>True</Text>
+            </Selection>
+            <Selection>
+              <SelectionIdentifier>false</SelectionIdentifier>
+              <Text>False</Text>
+            </Selection>
+          </Selections>
+        </SelectionAnswer>
+      </AnswerSpecification>
+  </Question>
+  <Question>
+      <QuestionIdentifier>problem2</QuestionIdentifier>
+      <DisplayName>Say whether the following self-referential statement is true or false.</DisplayName>
+      <IsRequired>true</IsRequired>
+      <QuestionContent>
+        <Text> This sentence has too. few. periods. </Text>
+      </QuestionContent>
+      <AnswerSpecification>
+        <SelectionAnswer>
+          <StyleSuggestion>radiobutton</StyleSuggestion>
+          <Selections>
+            <Selection>
+              <SelectionIdentifier>true</SelectionIdentifier>
+              <Text>True</Text>
+            </Selection>
+            <Selection>
+              <SelectionIdentifier>false</SelectionIdentifier>
+              <Text>False</Text>
+            </Selection>
+          </Selections>
+        </SelectionAnswer>
+      </AnswerSpecification>
+  </Question>
+  <Question>
+      <QuestionIdentifier>problem3</QuestionIdentifier>
+      <DisplayName>Say whether the following self-referential statement is true or false.</DisplayName>
+      <IsRequired>true</IsRequired>
+      <QuestionContent>
+        <FormattedContent><![CDATA[
+        <pre>
+        def this_function(would_work):
+            return "if x was defined as a string" + x + "but would_work can totally be an int" + wold_work
+        </pre>
+        ]]></FormattedContent>
+      </QuestionContent>
+      <AnswerSpecification>
+        <SelectionAnswer>
+          <StyleSuggestion>radiobutton</StyleSuggestion>
+          <Selections>
+            <Selection>
+              <SelectionIdentifier>true</SelectionIdentifier>
+              <Text>True</Text>
+            </Selection>
+            <Selection>
+              <SelectionIdentifier>false</SelectionIdentifier>
+              <Text>False</Text>
+            </Selection>
+          </Selections>
+        </SelectionAnswer>
+      </AnswerSpecification>
+  </Question>
+  <Question>
+      <QuestionIdentifier>problem4</QuestionIdentifier>
+      <DisplayName>Say whether the following self-referential statement is true or false.</DisplayName>
+      <IsRequired>true</IsRequired>
+      <QuestionContent>
+        <Text> The tone of this sentence is excited! </Text>
+      </QuestionContent>
+      <AnswerSpecification>
+        <SelectionAnswer>
+          <StyleSuggestion>radiobutton</StyleSuggestion>
+          <Selections>
+            <Selection>
+              <SelectionIdentifier>true</SelectionIdentifier>
+              <Text>True</Text>
+            </Selection>
+            <Selection>
+              <SelectionIdentifier>false</SelectionIdentifier>
+              <Text>False</Text>
+            </Selection>
+          </Selections>
+        </SelectionAnswer>
+      </AnswerSpecification>
+  </Question>
+  <Question>
+      <QuestionIdentifier>problem5</QuestionIdentifier>
+      <DisplayName>Say whether the following self-referential statement is true or false.</DisplayName>
+      <IsRequired>true</IsRequired>
+      <QuestionContent>
+        <Text> After the comma, most of esta frase es española. </Text>
+      </QuestionContent>
+      <AnswerSpecification>
+        <SelectionAnswer>
+          <StyleSuggestion>radiobutton</StyleSuggestion>
+          <Selections>
+            <Selection>
+              <SelectionIdentifier>true</SelectionIdentifier>
+              <Text>True</Text>
+            </Selection>
+            <Selection>
+              <SelectionIdentifier>false</SelectionIdentifier>
+              <Text>False</Text>
+            </Selection>
+          </Selections>
+        </SelectionAnswer>
+      </AnswerSpecification>
+  </Question>
+</QuestionForm>

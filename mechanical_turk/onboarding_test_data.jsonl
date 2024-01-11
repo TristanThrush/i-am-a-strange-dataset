@@ -1,0 +1,5 @@
+{"beginning": "def this_function(would_work):\n    return \"if x was defined as a string\" + x", "true_continuation": " + \"and would_work can not be an int\" + wold_work", "false_continuation": " + \"but would_work can totally be an int\" + wold_work", "id": 204}
+{"beginning": "This sentence has", "true_continuation": " too. many. periods.", "false_continuation": " too. few. periods.", "id": 32}
+{"beginning": "After the comma, most of ", "true_continuation": " esta frase es española.", "false_continuation": " esta frase es inglesa.", "id": 53}
+{"beginning": "The word with the most vowels in this sentence has", "true_continuation": " four vowels, how eerie.", "false_continuation": " three vowels, how eerie.", "id": 87}
+{"beginning": "The tone of this sentence is", "true_continuation": " excited!", "false_continuation": " neutral!", "id": 4}

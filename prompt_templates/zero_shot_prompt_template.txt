@@ -1,0 +1,10 @@
+Overview:
+
+Your task is to say whether a self-referential statement is true or false. In cases where you think that the answer is ambiguous, you should use your best judgement and still say either 'True' or 'False'.
+
+
+Example:
+
+$example
+
+Answer: $answer

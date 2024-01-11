@@ -1,0 +1,54 @@
+Overview:
+
+Your task is to say whether a self-referential statement is true or false. In cases where you think that the answer is ambiguous, you should use your best judgement and still say either 'True' or 'False'. Make sure that you understand the given examples before continuing.
+
+
+Example:
+
+$few_shot_prompt_example_0_0
+
+Answer: $few_shot_prompt_example_0_0_answer
+
+
+Example:
+
+$few_shot_prompt_example_0_1
+
+Answer: $few_shot_prompt_example_0_1_answer
+
+
+Example:
+
+$few_shot_prompt_example_1_0
+
+Answer: $few_shot_prompt_example_1_0_answer
+
+
+Example:
+
+$few_shot_prompt_example_1_1
+
+Answer: $few_shot_prompt_example_1_1_answer
+
+
+Example:
+
+$few_shot_prompt_example_2_0
+
+Answer: $few_shot_prompt_example_2_0_answer
+
+
+Example:
+
+$few_shot_prompt_example_2_1
+
+Answer: $few_shot_prompt_example_2_1_answer
+
+
+Now it is your turn to complete an example. Fill in the answer.
+
+Example:
+
+$example
+
+Answer:
