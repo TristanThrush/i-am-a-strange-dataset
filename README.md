@@ -2,6 +2,8 @@
 
 This is the repository for "I am a Strange Dataset: Metalinguistic Tests for Language Models".
 
+[https://arxiv.org/abs/2401.05300](https://arxiv.org/abs/2401.05300)
+
 ```
 @article{thrush2024strange,
     author    = {Tristan Thrush and Jared Moore and Miguel Monares and Christopher Potts and Douwe Kiela},
